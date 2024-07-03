@@ -49,7 +49,6 @@ const startCoundown = () => {
                 if(m <= 0){
                     if(h == 0 && m == 0){
                         clearInterval(interval);
-                        alert("Coundown is over");
                     }else{
                         m = 59;
                         h--;
@@ -61,7 +60,7 @@ const startCoundown = () => {
                     }
                 }
             
-            }, 100)
+            }, 1000)
             
         }
 
